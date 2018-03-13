@@ -1,4 +1,3 @@
-1. Change `AuthorsController#create` to re-render the form if the new author is invalid.
 class AuthorsController < ApplicationController
   def show
     @author = Author.find(params[:id])
